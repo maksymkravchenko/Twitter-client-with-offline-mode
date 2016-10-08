@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346E8241FDE4AFF79789BF5F /* libPods-Twitter client with offline mode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9D8F65F4C07DFD995934D3 /* libPods-Twitter client with offline mode.a */; };
+		9F4F1BD21DA674A1008D7CF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F1BD11DA674A1008D7CF1 /* main.m */; };
+		9F4F1BD51DA674A1008D7CF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F1BD41DA674A1008D7CF1 /* AppDelegate.m */; };
+		9F4F1BD81DA674A1008D7CF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F1BD71DA674A1008D7CF1 /* ViewController.m */; };
+		9F4F1BDB1DA674A1008D7CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F1BD91DA674A1008D7CF1 /* Main.storyboard */; };
+		9F4F1BDE1DA674A2008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F1BDC1DA674A1008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodeld */; };
+		9F4F1BE01DA674A2008D7CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F1BDF1DA674A2008D7CF1 /* Assets.xcassets */; };
+		9F4F1BE31DA674A2008D7CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F1BE11DA674A2008D7CF1 /* LaunchScreen.storyboard */; };
+		9F4F1BEE1DA674A2008D7CF1 /* Twitter_client_with_offline_modeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F1BED1DA674A2008D7CF1 /* Twitter_client_with_offline_modeTests.m */; };
+		FE66AC812D0597D02092D5F9 /* libPods-Twitter client with offline modeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1FB550E4F142F496EB3ABC /* libPods-Twitter client with offline modeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F4F1BEA1DA674A2008D7CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4F1BC51DA674A1008D7CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4F1BCC1DA674A1008D7CF1;
+			remoteInfo = "Twitter client with offline mode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C96CA8D66C0A5435ED7222 /* Pods-Twitter client with offline modeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter client with offline modeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter client with offline modeTests/Pods-Twitter client with offline modeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA4381D74DF4710E0016045 /* Pods-Twitter client with offline mode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter client with offline mode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter client with offline mode/Pods-Twitter client with offline mode.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1FB550E4F142F496EB3ABC /* libPods-Twitter client with offline modeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Twitter client with offline modeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9D8F65F4C07DFD995934D3 /* libPods-Twitter client with offline mode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Twitter client with offline mode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4F1BCD1DA674A1008D7CF1 /* Twitter client with offline mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter client with offline mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4F1BD11DA674A1008D7CF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4F1BD31DA674A1008D7CF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F4F1BD41DA674A1008D7CF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F4F1BD61DA674A1008D7CF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F4F1BD71DA674A1008D7CF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F4F1BDA1DA674A1008D7CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F4F1BDD1DA674A1008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twitter_client_with_offline_mode.xcdatamodel; sourceTree = "<group>"; };
+		9F4F1BDF1DA674A2008D7CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4F1BE21DA674A2008D7CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F4F1BE41DA674A2008D7CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4F1BE91DA674A2008D7CF1 /* Twitter client with offline modeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twitter client with offline modeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4F1BED1DA674A2008D7CF1 /* Twitter_client_with_offline_modeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twitter_client_with_offline_modeTests.m; sourceTree = "<group>"; };
+		9F4F1BEF1DA674A2008D7CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A878C299744F0B06969131B7 /* Pods-Twitter client with offline mode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter client with offline mode.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter client with offline mode/Pods-Twitter client with offline mode.release.xcconfig"; sourceTree = "<group>"; };
+		AD4DB8DCC6851E863C6EF183 /* Pods-Twitter client with offline modeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter client with offline modeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter client with offline modeTests/Pods-Twitter client with offline modeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4F1BCA1DA674A1008D7CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346E8241FDE4AFF79789BF5F /* libPods-Twitter client with offline mode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4F1BE61DA674A2008D7CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66AC812D0597D02092D5F9 /* libPods-Twitter client with offline modeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4F1BC41DA674A1008D7CF1 = {
+			isa = PBXGroup;
+			children = (
+				9F4F1BCF1DA674A1008D7CF1 /* Twitter client with offline mode */,
+				9F4F1BEC1DA674A2008D7CF1 /* Twitter client with offline modeTests */,
+				9F4F1BCE1DA674A1008D7CF1 /* Products */,
+				C41EB2B57A2229A398058047 /* Pods */,
+				C1AFB7F9D7E5835370139CEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4F1BCE1DA674A1008D7CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F1BCD1DA674A1008D7CF1 /* Twitter client with offline mode.app */,
+				9F4F1BE91DA674A2008D7CF1 /* Twitter client with offline modeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4F1BCF1DA674A1008D7CF1 /* Twitter client with offline mode */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F1BD31DA674A1008D7CF1 /* AppDelegate.h */,
+				9F4F1BD41DA674A1008D7CF1 /* AppDelegate.m */,
+				9F4F1BF81DA674E6008D7CF1 /* Entities */,
+				9F4F1BD61DA674A1008D7CF1 /* ViewController.h */,
+				9F4F1BD71DA674A1008D7CF1 /* ViewController.m */,
+				9F4F1BD91DA674A1008D7CF1 /* Main.storyboard */,
+				9F4F1BDF1DA674A2008D7CF1 /* Assets.xcassets */,
+				9F4F1BE11DA674A2008D7CF1 /* LaunchScreen.storyboard */,
+				9F4F1BE41DA674A2008D7CF1 /* Info.plist */,
+				9F4F1BD01DA674A1008D7CF1 /* Supporting Files */,
+			);
+			path = "Twitter client with offline mode";
+			sourceTree = "<group>";
+		};
+		9F4F1BD01DA674A1008D7CF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F1BD11DA674A1008D7CF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F4F1BEC1DA674A2008D7CF1 /* Twitter client with offline modeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F1BED1DA674A2008D7CF1 /* Twitter_client_with_offline_modeTests.m */,
+				9F4F1BEF1DA674A2008D7CF1 /* Info.plist */,
+			);
+			path = "Twitter client with offline modeTests";
+			sourceTree = "<group>";
+		};
+		9F4F1BF81DA674E6008D7CF1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F1BDC1DA674A1008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodeld */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		C1AFB7F9D7E5835370139CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A9D8F65F4C07DFD995934D3 /* libPods-Twitter client with offline mode.a */,
+				4D1FB550E4F142F496EB3ABC /* libPods-Twitter client with offline modeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C41EB2B57A2229A398058047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA4381D74DF4710E0016045 /* Pods-Twitter client with offline mode.debug.xcconfig */,
+				A878C299744F0B06969131B7 /* Pods-Twitter client with offline mode.release.xcconfig */,
+				05C96CA8D66C0A5435ED7222 /* Pods-Twitter client with offline modeTests.debug.xcconfig */,
+				AD4DB8DCC6851E863C6EF183 /* Pods-Twitter client with offline modeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4F1BCC1DA674A1008D7CF1 /* Twitter client with offline mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4F1BF21DA674A2008D7CF1 /* Build configuration list for PBXNativeTarget "Twitter client with offline mode" */;
+			buildPhases = (
+				AA828E3EB56131AB04A296FF /* [CP] Check Pods Manifest.lock */,
+				9F4F1BC91DA674A1008D7CF1 /* Sources */,
+				9F4F1BCA1DA674A1008D7CF1 /* Frameworks */,
+				9F4F1BCB1DA674A1008D7CF1 /* Resources */,
+				C39263E423A27AF30BAB937A /* [CP] Embed Pods Frameworks */,
+				6378D82F78412DD0A3E70674 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twitter client with offline mode";
+			productName = "Twitter client with offline mode";
+			productReference = 9F4F1BCD1DA674A1008D7CF1 /* Twitter client with offline mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F4F1BE81DA674A2008D7CF1 /* Twitter client with offline modeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4F1BF51DA674A2008D7CF1 /* Build configuration list for PBXNativeTarget "Twitter client with offline modeTests" */;
+			buildPhases = (
+				53E1E25A5BA29257348F7A8A /* [CP] Check Pods Manifest.lock */,
+				9F4F1BE51DA674A2008D7CF1 /* Sources */,
+				9F4F1BE61DA674A2008D7CF1 /* Frameworks */,
+				9F4F1BE71DA674A2008D7CF1 /* Resources */,
+				033492994386F52BEF8C6A02 /* [CP] Embed Pods Frameworks */,
+				D7B15CFD8C140AFD79CC14CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4F1BEB1DA674A2008D7CF1 /* PBXTargetDependency */,
+			);
+			name = "Twitter client with offline modeTests";
+			productName = "Twitter client with offline modeTests";
+			productReference = 9F4F1BE91DA674A2008D7CF1 /* Twitter client with offline modeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4F1BC51DA674A1008D7CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					9F4F1BCC1DA674A1008D7CF1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DY4EQLNCHV;
+						ProvisioningStyle = Automatic;
+					};
+					9F4F1BE81DA674A2008D7CF1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F4F1BCC1DA674A1008D7CF1;
+					};
+				};
+			};
+			buildConfigurationList = 9F4F1BC81DA674A1008D7CF1 /* Build configuration list for PBXProject "Twitter client with offline mode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4F1BC41DA674A1008D7CF1;
+			productRefGroup = 9F4F1BCE1DA674A1008D7CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4F1BCC1DA674A1008D7CF1 /* Twitter client with offline mode */,
+				9F4F1BE81DA674A2008D7CF1 /* Twitter client with offline modeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4F1BCB1DA674A1008D7CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F1BE31DA674A2008D7CF1 /* LaunchScreen.storyboard in Resources */,
+				9F4F1BE01DA674A2008D7CF1 /* Assets.xcassets in Resources */,
+				9F4F1BDB1DA674A1008D7CF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4F1BE71DA674A2008D7CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033492994386F52BEF8C6A02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twitter client with offline modeTests/Pods-Twitter client with offline modeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E1E25A5BA29257348F7A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6378D82F78412DD0A3E70674 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twitter client with offline mode/Pods-Twitter client with offline mode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA828E3EB56131AB04A296FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C39263E423A27AF30BAB937A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twitter client with offline mode/Pods-Twitter client with offline mode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B15CFD8C140AFD79CC14CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twitter client with offline modeTests/Pods-Twitter client with offline modeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4F1BC91DA674A1008D7CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F1BD81DA674A1008D7CF1 /* ViewController.m in Sources */,
+				9F4F1BD51DA674A1008D7CF1 /* AppDelegate.m in Sources */,
+				9F4F1BD21DA674A1008D7CF1 /* main.m in Sources */,
+				9F4F1BDE1DA674A2008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4F1BE51DA674A2008D7CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F1BEE1DA674A2008D7CF1 /* Twitter_client_with_offline_modeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F4F1BEB1DA674A2008D7CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4F1BCC1DA674A1008D7CF1 /* Twitter client with offline mode */;
+			targetProxy = 9F4F1BEA1DA674A2008D7CF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F4F1BD91DA674A1008D7CF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4F1BDA1DA674A1008D7CF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F4F1BE11DA674A2008D7CF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4F1BE21DA674A2008D7CF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4F1BF01DA674A2008D7CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F4F1BF11DA674A2008D7CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4F1BF31DA674A2008D7CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA4381D74DF4710E0016045 /* Pods-Twitter client with offline mode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY4EQLNCHV;
+				INFOPLIST_FILE = "Twitter client with offline mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.kravchenko.max.Twitter-client-with-offline-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F4F1BF41DA674A2008D7CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A878C299744F0B06969131B7 /* Pods-Twitter client with offline mode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DY4EQLNCHV;
+				INFOPLIST_FILE = "Twitter client with offline mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.kravchenko.max.Twitter-client-with-offline-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F4F1BF61DA674A2008D7CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C96CA8D66C0A5435ED7222 /* Pods-Twitter client with offline modeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Twitter client with offline modeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.kravchenko.max.Twitter-client-with-offline-modeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitter client with offline mode.app/Twitter client with offline mode";
+			};
+			name = Debug;
+		};
+		9F4F1BF71DA674A2008D7CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4DB8DCC6851E863C6EF183 /* Pods-Twitter client with offline modeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Twitter client with offline modeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.kravchenko.max.Twitter-client-with-offline-modeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitter client with offline mode.app/Twitter client with offline mode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4F1BC81DA674A1008D7CF1 /* Build configuration list for PBXProject "Twitter client with offline mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4F1BF01DA674A2008D7CF1 /* Debug */,
+				9F4F1BF11DA674A2008D7CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4F1BF21DA674A2008D7CF1 /* Build configuration list for PBXNativeTarget "Twitter client with offline mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4F1BF31DA674A2008D7CF1 /* Debug */,
+				9F4F1BF41DA674A2008D7CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4F1BF51DA674A2008D7CF1 /* Build configuration list for PBXNativeTarget "Twitter client with offline modeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4F1BF61DA674A2008D7CF1 /* Debug */,
+				9F4F1BF71DA674A2008D7CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F4F1BDC1DA674A1008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F4F1BDD1DA674A1008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodel */,
+			);
+			currentVersion = 9F4F1BDD1DA674A1008D7CF1 /* Twitter_client_with_offline_mode.xcdatamodel */;
+			path = Twitter_client_with_offline_mode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F4F1BC51DA674A1008D7CF1 /* Project object */;
+}
